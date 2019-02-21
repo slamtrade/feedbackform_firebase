@@ -9,3 +9,7 @@ Run `npm install` in your root project directory terminal.
 ## Install Bootstrap
 
 Run `npm install bootstrap` in your project directory terminal.
+
+## To know how to Store Feedback Data in "Firebase Real-Time Database" follow the medium link
+
+`
