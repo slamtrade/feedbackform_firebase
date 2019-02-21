@@ -19,7 +19,10 @@ export class AppComponent {
   constructor(db: AngularFireDatabase) {
     this.data = db.list('/data');
   }
-
+  cancel(): void {
+    console.log('do nothing')
+  }
+  
   save(): void {
     let error = false;
     if (this.data.subject.length > 80) {
